@@ -1,6 +1,6 @@
 # 基础阶段：安装 Node.js 和 pnpm
-ARG DOCKER_MIRROR=""
-#ARG DOCKER_MIRROR="#docker.m.daocloud.io/library/"
+#ARG DOCKER_MIRROR=""
+ARG DOCKER_MIRROR="#docker.m.daocloud.io/library/"
 ARG NPM_MIRROR="https://registry.npmmirror.com"
 ARG GOPROXY_MIRROR="https://goproxy.cn,direct"
 
